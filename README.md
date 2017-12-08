@@ -3,6 +3,12 @@
 Add unencrypted, base64-decoded claims from a JWT payload as request headers to
 the upstream service.
 
+## Installation
+
+```bash
+luarocks install kong-jwt-claim-headers
+```
+
 ## How it works
 
 When enabled, this plugin will add new headers to requests based on the claims 
