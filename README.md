@@ -59,3 +59,7 @@ form parameter|required|description
 ---|---|---
 `name`|*required*|The name of the plugin to use, in this case: `jwt-claim-headers`
 `uri_param_names`|*optional*|A list of querystring parameters that Kong will inspect to retrieve JWTs. Defaults to `jwt`.
+
+## Acknowledgements
+
+Inspired by [kong-plugin-jwt-claims-headers](https://github.com/wshirey/kong-plugin-jwt-claims-headers), thanks **wshirey**!
