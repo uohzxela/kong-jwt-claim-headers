@@ -1,7 +1,8 @@
-package = "kong-plugin-jwt-claim-headers"
+package = "kong-jwt-claim-headers"
 version = "1.0-1"
 source = {
-  url = "TBD"
+  url = "git://github.com/uohzxela/kong-jwt-claim-headers",
+  tag = "v1.0.0"
 }
 description = {
   summary = "A Kong plugin to map JWT claims to request headers ",
